@@ -1,12 +1,63 @@
+ctrl right + C == fenetre avec option
+ctrl right + A == ajuster la fenetre
+	https://www.malekal.com/raccourcis-clavier-virtualbox/
 
+----------------------------------------------------------------------
+INSTALATION DEBIAN
+----------------------------------------------------------------------
 
-hostname : debian
-domain name : 
-root password : glodi42
-full name : glo dio
-username : glo42
-password new user : gpeta1234
+hostname 		: debian
+domain name		: N/C
+root password		: glodi42
+full name		: glo dio
+username		: glo42
+password new user	: gpeta1234
 
 encryption passphrase (crypt setup) : jistheking
 
-"lsblk" pour voir la place des repartitions
+# lsblk
+	// (pour voir la place des repartitions)
+
+LVM (logical volume management):
+	>> https://fr.wikipedia.org/wiki/Gestion_par_volumes_logiques
+
+
+https://web.archive.org/web/20220508112748/https://www.codequoi.com/born2beroot-02-configurer-un-serveur-virtuel-debian/
+----------------------------------------------------------------------	
+APT, PAQUETS, ETC
+----------------------------------------------------------------------
+
+apt < aptitude
+
+apt (Advanced Packaging Tool):
+	>> gerer les paquets
+aptitude :
+	>> aptitude = apt + interface grgaphique
+
+paquet : 
+ >> contient tous les fichiers nécessaires à la mise en place d’un ensemble de commandes ou de fonctionnalités.
+
+*** installation ***
+# apt install [package_name]
+# apt search [package_name]
+
+*** maj ***
+1/ 'apt update' maj la liste des paquets dispos
+2/ 'apt upgrade' maj des paquets
+
+
+----------------------------------------------------------------------
+ROOT, SUPERUTILISATEUR ET SUDO
+----------------------------------------------------------------------$ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+
+# sudo usermod -aG sudo [mon_login]
+# getent group sudo
+
+	// pour ajouter user>superuser
+	// -aG == option pour ajouter
+	
+#sudo whoami
+	// verif que sa affiche 'root'
+	
+
