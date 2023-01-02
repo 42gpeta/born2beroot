@@ -1,0 +1,12 @@
+
+
+hostname : debian
+domain name : 
+root password : glodi42
+full name : glo dio
+username : glo42
+password new user : gpeta1234
+
+encryption passphrase (crypt setup) : jistheking
+
+"lsblk" pour voir la place des repartitions
