@@ -1,7 +1,7 @@
 ctrl right + C == fenetre avec option/ou ajustable
 ctrl right + A == ajuster la fenetre
 	https://www.malekal.com/raccourcis-clavier-virtualbox/
-
+	
 ----------------------------------------------------------------------
 INSTALATION DEBIAN
 ----------------------------------------------------------------------
@@ -9,9 +9,23 @@ INSTALATION DEBIAN
 hostname 		: debian
 domain name		: N/C
 root password		: glodi42
-full name		: glo dio
-username		: glo42
+full name		: glo dio / gpeta42
+username		: glo42 / gpeta42
 password new user	: gpeta1234 / Glob2bgg42
+
+#1
+gpeta42
+gpeta
+gpeta
+Glob2bgg42
+
+#2
+-
+glo1
+glo dio
+Glob2b4242
+
+
 
 encryption passphrase (crypt setup) : jistheking
 
